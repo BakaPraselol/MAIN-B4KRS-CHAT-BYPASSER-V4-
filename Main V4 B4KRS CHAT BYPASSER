@@ -178,7 +178,7 @@ end)
 --  BITCHES 
 --  PUSSY 
 --  HENTAI
-]]
+--]]
 
 local Tab = Window:NewTab("Swears")
 
@@ -217,15 +217,15 @@ end)
 
 SideSection:NewButton("cum", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("с⁥⁥⁥⁥um", "All")
-end
+end)
 
 SideSection:NewButton("cumed", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("с⁥⁥⁥⁥um⁥⁥⁥⁥еd", "All")
-end
+end)
 
 SideSection:NewButton("cumin", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("с⁥⁥⁥⁥um⁥⁥⁥⁥in", "All")
-end
+end)
 
 SideSection:NewButton("Hoe", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Нοе", "All")
