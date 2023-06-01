@@ -10,9 +10,7 @@ Section:NewButton("Anti-Ban", "Prevents you from getting banned if the ban were 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/Anti-Chat-Ban-Roblox/main/Roblox%20Anti%20Chat%20Ban"))() 
 end)
 
-local Section = Tab:NewSection("The anti ban make it so you cant chat sometimes")
-
-local Section = Tab:NewSection("fix")
+local Section = Tab:NewSection("fix if you cant chat")
 
 Section:NewButton("B4krs Backup Chat", "Backup chat", function()
 local ScreenGui = Instance.new("ScreenGui")
@@ -495,7 +493,7 @@ SSection:NewButton("fat ass hoe", "You say this word", function()
 end)
 
 SSection:NewButton("im mad horny", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("іm mad hоrnγ", "All")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("іm mad hоrnу", "All")
 end)
 
 SSection:NewButton("im sexy, and you know it", "You say this word", function()
@@ -757,7 +755,7 @@ RPSection:NewButton("Boobs get Big", "You say this word", function()
 end)
 
 RPSection:NewButton("cums", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("*с⁥⁥⁥⁥umѕ*", "All")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("с⁥⁥⁥⁥umѕ", "All")
 end)
 
 RPSection:NewButton("Moans", "You say this word", function()
