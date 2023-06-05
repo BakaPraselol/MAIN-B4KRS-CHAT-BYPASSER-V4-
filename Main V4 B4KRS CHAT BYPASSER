@@ -178,8 +178,8 @@ end)
 --  HENTAI
 --]]
 
-SideSection:NewButton("AssВUТТ⁥⁥⁥⁥НOLЕ", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ", "All")
+SideSection:NewButton("ass", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("а⁥⁥⁥⁥ѕѕ", "All")
 end)
 
 SideSection:NewButton("asshole", "You say this word", function()
@@ -264,8 +264,8 @@ SideSection:NewButton("Cock", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Сосk", "All")
 end)
 
-SideSection:NewButton("ass", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("а⁥⁥⁥⁥ѕѕ", "All")
+SideSection:NewButton("Ass", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ", "All")
 end)
 
 SideSection:NewButton("Rape", "You say this word", function()
