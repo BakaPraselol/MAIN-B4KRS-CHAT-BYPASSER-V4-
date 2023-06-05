@@ -12,7 +12,7 @@ end)
 
 local SideSection = Tab:NewSection("fix if you cant chat")
 
-Section:NewButton("B4krs Backup Chat", "Backup chat", function()
+SideSection:NewButton("B4krs Backup Chat", "Backup chat", function()
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
@@ -761,7 +761,7 @@ SLSection:NewButton("Somebody come get her, shes dancin like a stripper", "You s
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ѕοmеbodу сοmе gеt һеr, ѕһеѕ dаnсin ӏikе а ѕtrірреr", "All")
 end)
 
-local Tab = Window:NewTab("INFO AND CREDITS")
+local Tab = Window:NewTab("INFO")
 
 local INFSection = Tab:NewSection("INFO AND CREDITS")
 
