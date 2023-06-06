@@ -249,14 +249,6 @@ SideSection:NewButton("Kys", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Куѕ", "All")
 end)
 
-SideSection:NewButton("NAKED", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝΑКΕD", "All")
-end)
-
-SideSection:NewButton("PP", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΡР", "All")
-end)
-
 SideSection:NewButton("horny", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("hоrnу", "All")
 end)
@@ -385,6 +377,14 @@ SideSection:NewButton("KKK", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ККК", "All")
 end)
 
+SideSection:NewButton("NAKED", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝΑКΕD", "All")
+end)
+
+SideSection:NewButton("PP", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΡР", "All")
+end)
+
 SideSection:NewButton("MASTURBATE", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("МАЅТURВАТΕ", "All")
 end)
@@ -472,7 +472,7 @@ local Tab = Window:NewTab("Sentences")
 local SSection = Tab:NewSection("lowercase A-Z")
 
 SSection:NewButton("Ass or Boobs?", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ?", "All")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ оr Вооbs?", "All")
 end)
 
 SSection:NewButton("and you know i like Boobs", "You say this word", function()
