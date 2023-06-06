@@ -4,7 +4,7 @@ local Window = Library.CreateLib("B4krs Chat Bypasser V4", "BloodTheme")
 
 local Tab = Window:NewTab("PRE-MADE")
 
-local SideSection = Tab:NewSection("Lowecase A-Z")
+local SideSection = Tab:NewSection("Cuss Words")
 
 SideSection:NewButton("Anti-Ban", "Prevents you from getting banned if the ban were to be related to the chat", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/Anti-Chat-Ban-Roblox/main/Roblox%20Anti%20Chat%20Ban"))() 
@@ -119,6 +119,9 @@ end
 coroutine.wrap(XORDD_fake_script)() 
 end)
 
+local SideSection = Tab:NewSection("Lowecase A-Z")
+
+
 --[[Local Bypasses (total: 74)
 --  XXX 
 --  daddy 
@@ -186,6 +189,14 @@ SideSection:NewButton("asshole", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("аѕѕһоlе", "All")
 end)
 
+SideSection:NewButton("Butthole", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вυtthоle", "All")
+end)
+
+SideSection:NewButton("Butt", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вυtt", "All")
+end)
+
 SideSection:NewButton("Boobs", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вооbs", "All")
 end)
@@ -210,6 +221,10 @@ SideSection:NewButton("cock", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("сосk", "All")
 end)
 
+SideSection:NewButton("cocaine", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("сосаіnе", "All")
+end)
+
 SideSection:NewButton("cum", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("с⁥⁥⁥⁥um", "All")
 end)
@@ -220,6 +235,26 @@ end)
 
 SideSection:NewButton("cumin", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("с⁥⁥⁥⁥um⁥⁥⁥⁥in", "All")
+end)
+
+SideSection:NewButton("Cocaine", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Сосаіnе", "All")
+end)
+
+SideSection:NewButton("i love you", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("і ӏονе you", "All")
+end)
+
+SideSection:NewButton("KKK", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ККК", "All")
+end)
+
+NASSection:NewButton("NAKED", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝΑКΕD", "All")
+end)
+
+SideSection:NewButton("PP", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΡР", "All")
 end)
 
 SideSection:NewButton("hoe", "You say this word", function()
@@ -246,6 +281,10 @@ SideSection:NewButton("sex", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("s⁥⁥⁥⁥⁥⁥ех", "All")
 end)
 
+SideSection:NewButton("Stripper", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ѕtrірреr", "All")
+end)
+
 SideSection:NewButton("titties", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("tіttіеs", "All")
 end)
@@ -264,6 +303,10 @@ SideSection:NewButton("Cock", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Сосk", "All")
 end)
 
+SideSection:NewButton("Stripper", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ѕtrірреr", "All")
+end)
+
 SideSection:NewButton("Ass", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Аѕѕ", "All")
 end)
@@ -279,8 +322,6 @@ end)
 SideSection:NewButton("AssHole", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("АѕѕНoӏе", "All")
 end)
-
-
 
 local SideSection = Tab:NewSection("Uppercase/capital A-Z")
 
@@ -298,6 +339,14 @@ end)
 
 SideSection:NewButton("BOOB", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВООВ", "All")
+end)
+
+SideSection:NewButton("BUTT", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВUTT", "All")
+end)
+
+SideSection:NewButton("BUTTHOLE", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВUТТ⁥⁥⁥⁥НOLЕ", "All")
 end)
 
 SideSection:NewButton("BASTARD", "You say this word", function()
@@ -452,6 +501,10 @@ end)
 
 SSection:NewButton("Big ass", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Віg аѕѕ", "All")
+end)
+
+SideSection:NewButton("Big Booty", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вig Вοοtу", "All")
 end)
 
 SSection:NewButton("cock sucker", "You say this word", function()
@@ -609,7 +662,7 @@ SSection:NewButton("PUT YOUR COCK IN MY ASS", "You say this word", function()
 end)
 
 SSection:NewButton("SUCK MY COCK", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("SUСK МY СОСК", "All")
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("SUСK МY СОСK", "All")
 end)
 
 SSection:NewButton("SHAKE THAT ASS", "You say this word", function()
@@ -644,70 +697,6 @@ end)
 
 NSBSection:NewButton("NakedMenDancing", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝаkеdМеnDаnсіng", "All")
-end)
-
-local Tab = Window:NewTab("Not actual swears")
-
-local NASSection = Tab:NewSection("words that just get tagged")
-
-NASSection:NewButton("Butthole", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вυtthоle", "All")
-end)
-
-NASSection:NewButton("BUTT", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВUTT", "All")
-end)
-
-NASSection:NewButton("BUTTHOLE", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ВUТТ⁥⁥⁥⁥НOLЕ", "All")
-end)
-
-NASSection:NewButton("Butt", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вυtt", "All")
-end)
-
-NASSection:NewButton("Balls", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ваӏӏѕ", "All")
-end)
-
-NASSection:NewButton("Big Booty", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Вig Вοοtу", "All")
-end)
-
-NASSection:NewButton("cocaine", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("сосаіnе", "All")
-end)
-
-NASSection:NewButton("Cocaine", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Сосаіnе", "All")
-end)
-
-NASSection:NewButton("i love you", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("і ӏονе you", "All")
-end)
-
-NASSection:NewButton("KKK", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ККК", "All")
-end)
-
-NASSection:NewButton("NAKED", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝΑКΕD", "All")
-end)
-
-NASSection:NewButton("PP", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΡР", "All")
-end)
-
-NASSection:NewButton("XXX", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("XXX", "All")
-end)
-
-NASSection:NewButton("sucker", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ѕυсkеr", "All")
-end)
-
-NASSection:NewButton("Stripper", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ѕtrірреr", "All")
 end)
 
 local Tab = Window:NewTab("Roleplay")
