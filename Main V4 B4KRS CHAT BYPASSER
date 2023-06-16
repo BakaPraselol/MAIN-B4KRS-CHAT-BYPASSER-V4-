@@ -4,7 +4,7 @@ local Window = Library.CreateLib("B4krs Chat Bypasser V4", "BloodTheme")
 
 local Tab = Window:NewTab("PRE-MADE")
 
-local SideSection = Tab:NewSection("Cuss Words")
+local SideSection = Tab:NewSection("Anti-chat logger")
 
 SideSection:NewButton("Anti-Ban", "Prevents you from getting banned if the ban were to be related to the chat", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/Anti-Chat-Ban-Roblox/main/Roblox%20Anti%20Chat%20Ban"))() 
