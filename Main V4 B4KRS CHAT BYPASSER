@@ -668,17 +668,6 @@ end)
 SSection:NewButton("SHAKE THAT ASS", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅНΑКΕ ТНΑТ АЅЅ", "All")
 end)
-
-local SSection = Tab:NewSection("mixed")
-
-SSection:NewButton("CUM please", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("СUМ рӏеаѕе", "All")
-end) 
-
-SSection:NewButton("wHOre", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("wНОге", "All")
-end)
-
 local Tab = Window:NewTab("no space bar")
 
 local NSBSection = Tab:NewSection("nospacebar")
@@ -687,8 +676,8 @@ NSBSection:NewButton("ILoveBoobs", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ILoveВооbs", "All")
 end)
 
-NSBSection:NewButton("jiglethoseBoobs", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("јіgӏеtһοѕеВооbs", "All")
+NSBSection:NewButton("jiglethoseboobs", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("јіgӏеtһοѕеbооbs", "All")
 end)
 
 NSBSection:NewButton("killurself", "You say this word", function()
