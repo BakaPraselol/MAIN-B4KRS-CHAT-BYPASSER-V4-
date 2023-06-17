@@ -1,3 +1,6 @@
+-- idk what happend to v1 and v3 for this chat bypasser lol
+-- script made by B4krs (Thats me: BakaPraselol)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("B4krs Chat Bypasser V4", "BloodTheme")
