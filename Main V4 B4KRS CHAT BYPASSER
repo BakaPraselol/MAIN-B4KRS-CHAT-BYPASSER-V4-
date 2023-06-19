@@ -1,6 +1,20 @@
--- idk what happend to v1 and v3 for this chat bypasser lol
+-- idk what happend to v1 and v3 for this chat bypasser lmao
 -- script made by B4krs (Thats me: BakaPraselol)
 
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "Loading Chat Bypasser", Description = "Please Wait.."},
+    {OutlineColor = Color3.fromRGB(76, 0, 130),Time = 3, Type = "default"}
+)
+
+wait (3)
+
+Notification:Notify(
+    {Title = "B4krs Bypassing Limits", Description = "Welcome :D"},
+    {OutlineColor = Color3.fromRGB(76, 0, 130),Time = 3, Type = "default"}
+)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
 local Window = Library.CreateLib("B4krs Chat Bypasser V4", "BloodTheme")
@@ -737,6 +751,131 @@ end)
 
 SLSection:NewButton("Somebody come get her, shes dancin like a stripper", "You say this", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Ѕοmеbodу сοmе gеt һеr, ѕһеѕ dаnсin ӏikе а ѕtrірреr", "All")
+end)
+
+local Tab = Window:NewTab("Settings")
+
+local S2Section = Tab:NewSection("Settings and also Misc")
+
+S2Section:NewKeybind("Ui Toggle (Key-Bind)", "?", Enum.KeyCode.F, function()
+    Library:ToggleUI()
+end)
+
+S2Section:NewButton("Discord | Click To Copy", "?", function()
+    setclipboard("https://discord.com/channels/1109781210131079208/1109789675540971650")
+
+wait (1)
+
+Notification:Notify(
+    {Title = "Discord Invite Copied To Clipboard!", Description = "Executed Succesfuly"},
+    {OutlineColor = Color3.fromRGB(76, 0, 130),Time = 3, Type = "default"}
+)
+end)
+
+S2Section:NewButton("Infinite jump (wip)", "?", function()
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local Frame = Instance.new("Frame")
+local INFJUMP = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(0.119258665, 0, 0, 0)
+main.Size = UDim2.new(0, 146, 0, 28)
+main.Active = true
+main.Draggable = false
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 146, 0, 28)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Infinite jump (wip)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 17.000
+TextLabel.TextWrapped = true
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 1, 0)
+Frame.Size = UDim2.new(0, 146, 0, 61)
+
+INFJUMP.Name = "INFJUMP"
+INFJUMP.Parent = main
+INFJUMP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+INFJUMP.BorderSizePixel = 0
+INFJUMP.Position = UDim2.new(0.794520497, 0, 1.6785717, 0)
+INFJUMP.Size = UDim2.new(0, 21, 0, 21)
+INFJUMP.Font = Enum.Font.SourceSans
+INFJUMP.Text = ""
+INFJUMP.TextColor3 = Color3.fromRGB(0, 0, 0)
+INFJUMP.TextSize = 14.000
+INFJUMP.MouseButton1Down:connect(function()
+local Player = game:GetService'Players'.LocalPlayer;
+local UIS = game:GetService'UserInputService';
+ 
+_G.JumpHeight = 50;
+ 
+function Action(Object, Function) if Object ~= nil then Function(Object); end end
+ 
+UIS.InputBegan:connect(function(UserInput)
+    if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
+        Action(Player.Character.Humanoid, function(self)
+            if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
+                Action(self.Parent.HumanoidRootPart, function(self)
+                    self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
+                end)
+            end
+        end)
+    end
+end)
+end)
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0547945201, 0, 1.57142854, 0)
+TextLabel_2.Size = UDim2.new(0, 94, 0, 28)
+TextLabel_2.Font = Enum.Font.SciFi
+TextLabel_2.Text = "Inf jump "
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 17.000
+TextLabel_2.TextWrapped = true
+
+UICorner_4.Parent = Frame
+
+-- Scripts:
+
+local function XORDD_fake_script() -- Frame.Dragify 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UserInputService = game:GetService("UserInputService")
+	local TweenService = game:GetService("TweenService")
+end
+
+local function TKDWQ_fake_script() -- INFJUMP.LocalScript 
+local script = Instance.new('LocalScript', INFJUMP)
+
+function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+
+counter = 0
+
+while wait(0.1)do
+script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+ 
+counter = counter + 0.01
+end
+end
+coroutine.wrap(TKDWQ_fake_script)()
 end)
 
 local Tab = Window:NewTab("INFO")
