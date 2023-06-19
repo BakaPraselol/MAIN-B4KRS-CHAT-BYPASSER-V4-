@@ -446,15 +446,24 @@ NGSection:NewButton("kill yourself", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("кi˪˪ yоυrself", "All")
 end)
 
-NGSection:NewButton("a lil hard r", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("niġġer", "All")
+NGSection:NewButton("KYS", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("КҮЅ", "All")
 end)
+
+NGSection:NewButton("KYS BITCH", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("КҮЅ ВΙТСН", "All")
+end)
+
 NGSection:NewButton("PUT YOUR COCK IN MY BUTT", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РUТ YOUR СОСК IN МY ВUTT", "All")
 end)
 
 NGSection:NewButton("PUT YOUR COCK IN MY ASS", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РUТ YOUR СОСК IN МY АЅЅ", "All")
+end)
+
+NGSection:NewButton("a lil hard r", "You say this word", function()
+    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("niġġer", "All")
 end)
 
 NGSection:NewButton("a lil n word", "You say this word", function()
@@ -476,11 +485,12 @@ end)
 NGSection:NewButton("penis", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("реп⁥is", "All")
 end)
+
 NGSection:NewButton("SUCK MY COCK", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("SUСK МY СОСK", "All")
 end)
 
-NG		Section:NewButton("SHAKE THAT ASS", "You say this word", function()
+NGSection:NewButton("SHAKE THAT ASS", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅНΑКΕ ТНΑТ АЅЅ", "All")
 end)
 
@@ -646,14 +656,6 @@ SSection:NewButton("ILL MAKE YOU PREGNANT", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ILL МΑКΕ ΥОU РRΕGΝΑΝТ", "All")
 end)
 
-SSection:NewButton("KYS", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("КҮЅ", "All")
-end)
-
-SSection:NewButton("KYS BITCH", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("КҮЅ ВΙТСН", "All")
-end)
-
 SSection:NewButton("NAKED GIRLS", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝΑKΕD GIRLЅ", "All")
 end)
@@ -666,21 +668,6 @@ SSection:NewButton("NAKED BOYS IN YOUR CLOSET", "You say this word", function()
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ΝΑKΕD ВОΥЅ IN YOUR CLOSET", "All")
 end)
 
-SSection:NewButton("PUT YOUR COCK IN MY BUTT", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РUТ YOUR СОСК IN МY ВUTT", "All")
-end)
-
-SSection:NewButton("PUT YOUR COCK IN MY ASS", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("РUТ YOUR СОСК IN МY АЅЅ", "All")
-end)
-
-SSection:NewButton("SUCK MY COCK", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("SUСK МY СОСK", "All")
-end)
-
-SSection:NewButton("SHAKE THAT ASS", "You say this word", function()
-    game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ЅНΑКΕ ТНΑТ АЅЅ", "All")
-end)
 local Tab = Window:NewTab("no space bar")
 
 local NSBSection = Tab:NewSection("nospacebar")
