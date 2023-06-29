@@ -755,7 +755,7 @@ end)
 
 local Tab = Window:NewTab("Settings")
 
-local S2Section = Tab:NewSection("Settings and also Misc")
+local S2Section = Tab:NewSection("Settings")
 
 S2Section:NewKeybind("Ui Toggle (Key-Bind)", "?", Enum.KeyCode.F, function()
     Library:ToggleUI()
@@ -771,6 +771,8 @@ Notification:Notify(
     {OutlineColor = Color3.fromRGB(76, 0, 130),Time = 3, Type = "default"}
 )
 end)
+
+local S2Section = Tab:NewSection("Misc")
 
 S2Section:NewButton("Infinite jump (wip)", "?", function()
 
