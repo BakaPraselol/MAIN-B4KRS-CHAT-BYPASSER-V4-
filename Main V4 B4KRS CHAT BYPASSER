@@ -1,3 +1,6 @@
+game.Players.LocalPlayer:Kick("the script version is outdated, please wait untill its updated or find a newer version (discord:https://discord.com/channels/1109781210131079208/1109790157953052792)"
+
+--[[
 -- idk what happend to v1 and v3 for this chat bypasser lmao
 -- script made by B4krs (Thats me: BakaPraselol)
 
@@ -897,4 +900,4 @@ INFSection:NewButton("make your acc 13+ for all feature to work", "ye (INFO)", f
 end)
 
 INFSection:NewButton("Thank you for using Bk4rs RBLX Chat Bypaser", "INFO", function()
-end)
+end) --]]
