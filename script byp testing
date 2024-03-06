@@ -1,7 +1,7 @@
 --[[
 heres the loadstring: loadstring(game:HttpGet("https://raw.githubusercontent.com/BakaPraselol/bypass/main/script%20byp%20testing"))()
 this usually has the unreleased newest version, so, if you want check this out once it updates sometimes lmao
-updatechecker: 0,0
+updatechecker: 0,1
 
 Status: Newer than "bypass"
 --]]
